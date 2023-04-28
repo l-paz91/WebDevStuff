@@ -1,0 +1,36 @@
+/* ----------------------------------------------------------------  */
+
+.clickerButtonContainer {
+    text-align: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+/* ----------------------------------------------------------------  */
+
+.clicker-button {
+    font-size: 48px;
+    padding: 20px;
+    background-color: #2196F3;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------  */
+
+.score {
+    font-size: 30px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* ----------------------------------------------------------------  */
+
+.assetsPerSecond {
+    font-size: 20px;
+    margin-top: 1px;
+}
+
+/* ----------------------------------------------------------------  */
