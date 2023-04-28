@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="clickerButtonContainer.css">
+    <link rel="stylesheet" href="upgradeContainer.css">
+
+    <title>Idle Clicker Game</title>
+</head>
+<body>
+    <div class="clickerButtonContainer">
+        <div>
+            <h1>Cook Cache Clicker</h1>
+            <p class="score">Assets: <span id="score">0</span></p>
+            <p class="assetsPerSecond">per second: <span id="assetsPerSecond">0</span></p>
+            <button class="clicker-button">Cook!</button>
+        </div>
+    </div>
+
+    <div id="upgradeContainer">
+        <div class="upgrade" id="autoClickerUpgrade">
+            <h3>Auto-Clicker Script</h3>
+            <p class="upgradeTooltip" id="autoClickerTooltip">C# scripts cooking 1 asset per second</p>
+            <p id="autoClickerUpgradeCost">Cost: 10</p>
+            <button class="upgradeButton" id="autoClickerUpgradeButton">Buy</button>
+        </div>
+        <div class="upgrade" id="jacobUpgrade">
+            <h3>Jacob</h3>
+            <p class="upgradeTooltip" id="jacobTooltip">Jacob's are wizards from Denmark. Cooking 10 assets per second</p>
+            <p id="jacobUpgradeCost">Cost: 50</p>
+            <button class="upgradeButton" id="jacobUpgradeButton">Buy</button>
+        </div>      
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
