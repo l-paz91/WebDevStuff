@@ -1,0 +1,76 @@
+/* ----------------------------------------------------------------  */
+
+#upgradeContainer {
+    margin-top: 0px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 10px;
+    background-color: #F3EFEF;
+    border: 1px solid #CCC;
+
+    position: absolute;
+    top: 10%;
+    right: 1%;
+}
+
+/* ----------------------------------------------------------------  */
+
+.upgrade {
+    flex: 1;
+    margin: 0 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #8ca7bd;
+}
+
+/* ----------------------------------------------------------------  */
+
+.upgrade h3 {
+    margin: 0;
+}
+
+/* ----------------------------------------------------------------  */
+
+.upgrade p {
+    margin: 10px 0;
+}
+
+/* ----------------------------------------------------------------  */
+
+.upgrade button {
+    margin-top: 10px;
+    background-color: #2a6ea5;
+    color: #FFF;
+    cursor: pointer;
+}
+
+/* ----------------------------------------------------------------  */
+
+.upgrade .upgradeTooltip {
+    visibility: hidden;
+    width:max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    right: 100%;
+    z-index: 1;
+}
+
+/* ----------------------------------------------------------------  */
+  
+.upgrade:hover .upgradeTooltip {  
+    visibility: visible;
+}
+
+/* ----------------------------------------------------------------  */
+
+.upgrade:hover {  
+    background-color: rgb(189, 217, 236);
+}
